@@ -1,7 +1,7 @@
 using Birdhouse.Tools.Strings;
 using UnityEngine;
 
-namespace Birdhouse.Features.Cases.Samples
+namespace Birdhouse.Cases.Samples
 {
     public sealed class CaseSample
         : MonoBehaviour

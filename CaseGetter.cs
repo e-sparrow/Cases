@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using Birdhouse.Features.Cases.Interfaces;
+using Birdhouse.Cases.Interfaces;
 
-namespace Birdhouse.Features.Cases
+namespace Birdhouse.Cases
 {
     public class CaseGetter<TValue, TCase> : ICaseGetter<TValue, TCase>
     {

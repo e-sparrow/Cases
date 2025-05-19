@@ -1,9 +1,10 @@
 using System;
 using System.Collections.Generic;
+using Birdhouse.Cases.Enums;
 using Birdhouse.Tools.Strings.Abstractions;
 using Cyriller.Model;
 
-namespace Birdhouse.Features.Cases
+namespace Birdhouse.Cases
 {
     public sealed class DeclineTag
         : ITag
@@ -18,7 +19,7 @@ namespace Birdhouse.Features.Cases
                 return input;
             }
 
-            var canParse = Enum.TryParse<CasesEnum>(@case, out var parsedCase);
+            var canParse = Enum.TryParse<ERussianCase>(@case, out var parsedCase);
             if (!canParse)
             {
                 return input;

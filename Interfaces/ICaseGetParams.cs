@@ -1,4 +1,4 @@
-﻿namespace Birdhouse.Features.Cases.Interfaces
+﻿namespace Birdhouse.Cases.Interfaces
 {
     public interface ICaseGetParams
     {

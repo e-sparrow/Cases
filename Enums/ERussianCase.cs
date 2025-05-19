@@ -1,4 +1,4 @@
-﻿namespace Birdhouse.Features.Cases.Enums
+﻿namespace Birdhouse.Cases.Enums
 {
     public enum ERussianCase
     {

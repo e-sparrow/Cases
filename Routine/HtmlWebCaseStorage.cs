@@ -1,4 +1,4 @@
-﻿namespace Birdhouse.Features.Cases.Routine
+﻿namespace Birdhouse.Cases.Routine
 {
     public class HtmlWebCaseStorage // : CaseStorageBase
     {

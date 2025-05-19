@@ -1,11 +1,11 @@
 ﻿using System;
 using Cyriller;
 
-namespace Birdhouse.Features.Cases
+namespace Birdhouse.Cases
 {
     public static class CyrillerHelper
     {
-        public static Lazy<CyrNounCollection> MainNounCollection
+        public static readonly Lazy<CyrNounCollection> MainNounCollection
             = new Lazy<CyrNounCollection>(() => new CyrNounCollection());
     }
 }

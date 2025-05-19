@@ -1,7 +1,7 @@
-﻿using Birdhouse.Features.Cases.Enums;
-using Birdhouse.Features.Cases.Interfaces;
+﻿using Birdhouse.Cases.Enums;
+using Birdhouse.Cases.Interfaces;
 
-namespace Birdhouse.Features.Cases
+namespace Birdhouse.Cases
 {
     public class RussianCaseGetter : ICaseGetter<string, ERussianCase>
     {
